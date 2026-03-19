@@ -1,0 +1,9 @@
+[project]
+name = "zorin-php"
+version = "0.1.0"
+description = "가상 IoT 센서 데이터 생성기 — MySQL에 실시간 시뮬레이션 데이터 삽입"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+injector = "injector:main"
